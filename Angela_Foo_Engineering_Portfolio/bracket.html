@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fafaf8">
+<meta name="description" content="Angela Foo's IME 432 additive manufacturing project: a topology-optimized 316L stainless-steel mounting bracket, finite element simulation, dimensional qualification, and cost analysis.">
+<title>Lightweight Bracket Optimization — Angela Foo</title>
+<link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="shell navigation"><a class="logo" href="index.html">ANGELA FOO<span class="logo-mark">/</span></a><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="index.html#experience">Experience</a><a href="index.html#about">About</a><a class="nav-resume" href="assets/Angela_Foo_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a></nav></div></header>
+<main id="main">
+  <section class="shell case-intro bracket-intro">
+    <a class="back-to" href="index.html#projects">← &nbsp; ALL PROJECTS</a>
+    <p class="eyebrow">03 / IME 432 · ADDITIVE MANUFACTURING · WINTER 2025</p>
+    <h1>Lightweight Bracket<br><em>Optimization.</em></h1>
+    <p class="case-lede">Redesigning a load-bearing mounting bracket for metal additive manufacturing—with weight, stiffness, printability, and dimensional quality in view.</p>
+  </section>
+  <section class="shell bracket-hero-gallery" aria-label="Finished part and generative CAD model">
+    <figure class="bracket-hero-photo"><a href="assets/bracket-printed-bracket.webp" target="_blank" rel="noopener"><img src="assets/bracket-printed-bracket.webp" alt="Physical topology-optimized mounting bracket made of stainless steel 316L after selective laser melting and post-processing" fetchpriority="high"></a><figcaption>01 / Final 316L stainless-steel bracket, photographed after metal printing</figcaption></figure>
+    <figure class="bracket-hero-render"><a href="assets/bracket-generative-cad.webp" target="_blank" rel="noopener"><img src="assets/bracket-generative-cad.webp" alt="Organic branched generative design CAD model of the bracket with four mounting holes" fetchpriority="high"></a><figcaption>02 / Generative design concept selected by the team</figcaption></figure>
+  </section>
+  <div class="shell case-meta">
+    <div><span>PROJECT</span><strong>Cal Poly · IME 432</strong></div>
+    <div><span>TEAM</span><strong>Four-person design team</strong></div>
+    <div><span>MY FOCUS</span><strong>Validation · Qualification · Cost analysis</strong></div>
+    <div><span>TOOLS &amp; PROCESS</span><strong>Fusion 360 · 316L SLM · Dimensional inspection</strong></div>
+  </div>
+
+  <section class="shell case-body" aria-labelledby="bracket-overview">
+    <aside class="case-aside"><p>01 / PROJECT OVERVIEW</p><h2 id="bracket-overview">Less material.<br>Same purpose.</h2></aside>
+    <div class="case-text"><p class="lead-paragraph">Our team redesigned a small stainless-steel mounting bracket to reduce mass without sacrificing its intended structural function.</p>
+    <p>The original bracket had four fixed mounting holes for M2.5 fasteners and a specified load case. We evaluated <strong>generative design, an internal lattice, and shape optimization</strong> as ways to make the part lighter while considering the limitations of metal 3D printing.</p>
+    <p>My assigned responsibilities were <strong>design validation, qualification, and cost analysis</strong>. CAD modeling, FDM prototyping, and metal manufacturing/post-processing were assigned to other teammates, and the project was completed collaboratively.</p></div>
+  </section>
+
+  <section class="constraints-section" aria-labelledby="bracket-results-heading"><div class="shell">
+    <div class="section-bar narrow"><div><p class="eyebrow">02 / SELECTED CONCEPT · SIMULATED RESULTS</p><h2 id="bracket-results-heading">The optimized design<span class="accent-dot">.</span></h2></div><p class="section-subtitle">Reported design-model results for the selected generative-design proposal—not physical load-test measurements.</p></div>
+    <div class="constraints-grid bracket-metrics">
+      <div class="constraint"><span>ORIGINAL DESIGN MASS</span><strong>25.733 g</strong><p>Baseline CAD mass</p></div>
+      <div class="constraint"><span>OPTIMIZED DESIGN MASS</span><strong>6.984 g</strong><p>Selected CAD mass</p></div>
+      <div class="constraint"><span>CALCULATED REDUCTION</span><strong>72.86%</strong><p>Mass reduction versus baseline</p></div>
+      <div class="constraint"><span>SIMULATED DISPLACEMENT</span><strong>0.019 mm</strong><p>Reported maximum displacement</p></div>
+    </div>
+    <p class="constraints-note">Assignment objectives included at least 30% mass reduction and simulated tip deflection below 0.05 mm. The specified material was 316L stainless steel, with mounting-hole locations unchanged and a prescribed loading condition of 100 N at each loaded hole edge.</p>
+  </div></section>
+
+  <section class="shell bracket-options" aria-labelledby="bracket-options-heading">
+    <div class="bracket-section-title"><p class="eyebrow">03 / DESIGN EXPLORATION</p><h2 id="bracket-options-heading">Three approaches.<br><em>One selected direction.</em></h2><p>We compared alternative geometries before selecting the generative design for its combination of weight savings and simulated structural performance.</p></div>
+    <div class="bracket-option-grid">
+      <article class="bracket-option selected"><figure><img src="assets/bracket-generative-cad.webp" alt="Branched generative design bracket" loading="lazy"></figure><div class="bracket-option-copy"><span>01 / SELECTED</span><h3>Generative design</h3><strong>72.86% lighter</strong><p>6.984 g model mass; 0.019 mm reported simulated maximum displacement.</p></div></article>
+      <article class="bracket-option"><figure><img src="assets/bracket-lattice-cad.webp" alt="Bracket preserving outer shape with lattice structure inside" loading="lazy"></figure><div class="bracket-option-copy"><span>02 / EXPLORED</span><h3>Internal lattice</h3><strong>53.43% lighter</strong><p>11.984 g model mass. Structural deflection was not resolved in the team's analysis; powder-removal accessibility was also a concern.</p></div></article>
+      <article class="bracket-option"><figure><img src="assets/bracket-shape-optimization-cad.webp" alt="Smoothed bracket shape optimization CAD model" loading="lazy"></figure><div class="bracket-option-copy"><span>03 / EXPLORED</span><h3>Shape optimization</h3><strong>30.31% lighter</strong><p>17.931 g model mass; 0.048 mm reported simulated maximum displacement.</p></div></article>
+    </div>
+  </section>
+
+  <section class="bracket-analysis-band" aria-labelledby="bracket-analysis-heading"><div class="shell bracket-analysis-grid">
+    <div><p class="eyebrow">04 / STRUCTURAL EVALUATION</p><h2 id="bracket-analysis-heading">Validate the idea<br><em>before the print.</em></h2><p>The design review compared each proposal against the stiffness and weight targets. The selected generative design showed a reported <strong>0.019 mm maximum displacement in simulation</strong>, below the assignment's 0.05 mm limit.</p><p>My validation work also considered manufacturing risks such as support generation, print orientation, potential warpage, and part distortion. Simulation results were treated as design-stage evidence rather than a substitute for measuring a physical part.</p></div>
+    <figure><a href="assets/bracket-displacement-analysis.webp" target="_blank" rel="noopener"><img src="assets/bracket-displacement-analysis.webp" alt="Color contour plot of simulated bracket deflection with colored stress-style gradients" loading="lazy"></a><figcaption>03 / Structural simulation view from the team's final design review</figcaption></figure>
+  </div></section>
+
+  <section class="shell bracket-manufacture" aria-labelledby="bracket-manufacture-heading">
+    <div class="bracket-section-title"><p class="eyebrow">05 / MANUFACTURING &amp; QUALIFICATION</p><h2 id="bracket-manufacture-heading">From a digital model<br><em>to a metal part.</em></h2></div>
+    <div class="bracket-manufacture-grid">
+      <div class="bracket-manufacture-copy"><p>The team manufactured the selected design in <strong>316L stainless steel using selective laser melting (SLM)</strong> and completed support removal and post-processing. The design review reported a successful print without major build failure.</p><p>Qualification revealed limits that the CAD model alone could not show: some measured features were outside the drawing's specified tolerances. The team highlighted improvements to the slender connecting region, dimensional control, machine calibration, and post-processing.</p><p>For my cost analysis, the presentation estimated a <strong>three-hour build</strong>, approximately <strong>$0.26 in material</strong>, and <strong>$75 in labor</strong> per part. The resulting <strong>$75.26</strong> was a course estimate for direct material and labor, not a validated production quote or a fully allocated equipment cost.</p></div>
+      <div class="bracket-manufacture-images">
+        <figure><a href="assets/bracket-printed-bracket.webp" target="_blank" rel="noopener"><img src="assets/bracket-printed-bracket.webp" alt="Close-up of the completed topology-optimized metal bracket" loading="lazy"></a><figcaption>04 / Printed and post-processed metal bracket</figcaption></figure>
+        <figure><a href="assets/bracket-qualification-table.webp" target="_blank" rel="noopener"><img src="assets/bracket-qualification-table.webp" alt="Qualification table comparing nominal dimensions with measured values and tolerance pass-fail outcomes" loading="lazy"></a><figcaption>05 / Dimensional qualification table from the team's design review</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="bracket-takeaways" aria-labelledby="bracket-takeaways-heading"><div class="shell bracket-takeaways-grid"><div><p class="eyebrow">06 / REFLECTION</p><h2 id="bracket-takeaways-heading">Design is only<br>part of the proof<span class="accent-dot">.</span></h2></div><div><p>The final print demonstrated that the lightweight concept could be fabricated, but its dimensional discrepancies pointed to an equally important part of manufacturing engineering: <strong>qualification against the drawing and requirements</strong>.</p><p>If the project continued, the team proposed strengthening the middle connecting brace and improving machine calibration and post-processing to bring more features into tolerance.</p><p class="bracket-credit">Academic team project: Angela Foo, Brett Beaudoin, Jaylan Mo, and Joshan Darji · Cal Poly IME 432. Visuals and figures are taken from the team's final design review.</p><a class="text-link smaller" href="assets/IME_432_Additive_Bracket_Design_Review.pdf" target="_blank" rel="noopener">View full design review <span aria-hidden="true">↗</span></a></div></div></section>
+  <div class="next-case"><div class="shell"><div><span>ALSO EXPLORE</span><h2>Utility Blade CNC Fixture</h2></div><a href="fixture.html" class="text-link">View project <span aria-hidden="true">↗</span></a></div></div>
+</main>
+<footer class="site-footer"><div class="shell footer-flex"><span>© Angela Foo · Engineering portfolio</span><a href="index.html#projects">All projects ↑</a></div></footer>
+</body></html>

@@ -1,101 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fafaf8">
-<meta name="description" content="Angela Foo's injection-molded screwdriver project: mechanical design, 6061-T6 mold tooling, CNC programming, injection molding trials, and production cost analysis.">
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#fafaf8" name="theme-color"/>
+<meta content="Angela Foo's injection-molded screwdriver project: mechanical design, 6061-T6 mold tooling, CNC programming, injection molding trials, and production cost analysis." name="description"/>
 <title>Injection-Molded Screwdriver — Angela Foo</title>
-<link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+<link href="styles.css" rel="stylesheet"/><script defer="" src="script.js"></script>
 </head>
 <body id="top">
 <a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header"><div class="shell navigation"><a class="logo" href="index.html">ANGELA FOO<span class="logo-mark">/</span></a><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="index.html#experience">Experience</a><a href="index.html#about">About</a><a class="nav-resume" href="assets/Angela_Foo_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a></nav></div></header>
+<header class="site-header"><div class="shell navigation"><a class="logo" href="index.html">ANGELA FOO<span class="logo-mark">/</span></a><button aria-controls="site-nav" aria-expanded="false" class="menu-toggle" type="button">Menu <span aria-hidden="true">☰</span></button><nav aria-label="Main navigation" class="site-nav" id="site-nav"><a href="index.html#projects">Projects</a><a href="index.html#approach">Approach</a><a href="index.html#experience">Experience</a><a href="index.html#about">About</a><a class="nav-resume" href="assets/Angela_Foo_Resume.pdf" rel="noopener" target="_blank">Résumé ↗</a></nav></div></header>
 <main id="main">
-  <section class="shell case-intro injection-intro">
-    <a class="back-to" href="index.html#projects">← &nbsp; ALL PROJECTS</a>
-    <p class="eyebrow">02 / IME 450 · INJECTION MOLD DESIGN · SPRING 2026</p>
-    <h1>Injection-Molded<br><em>Screwdriver.</em></h1>
-    <p class="case-lede">From a pocket-sized product concept to a machined aluminum mold and functional nylon prototypes.</p>
-  </section>
-  <section class="shell injection-hero-gallery" aria-label="Project photographs">
-    <figure class="injection-hero-main"><img src="assets/mold-in-cnc.webp" alt="Machined aluminum screwdriver-handle mold installed in a CNC mill vise" fetchpriority="high"><figcaption>01 / CNC-machined screwdriver mold in the mill</figcaption></figure>
-    <figure class="injection-hero-side"><img src="assets/finished-screwdrivers.webp" alt="Two completed black injection-molded screwdriver handles on Phillips screwdriver blades" fetchpriority="high"><figcaption>02 / Functional injection-molded prototypes</figcaption></figure>
-  </section>
-  <div class="shell case-meta">
-    <div><span>PROJECT</span><strong>Cal Poly · IME 450</strong></div>
-    <div><span>TEAM</span><strong>Angela Foo &amp; Brynn Bajema</strong></div>
-    <div><span>TOOLING</span><strong>6061-T6 aluminum · two-piece mold</strong></div>
-    <div><span>METHODS</span><strong>SolidWorks · HSMWorks · Haas VF-2 · Morgan G100T</strong></div>
-  </div>
-
-  <section class="shell case-body" aria-labelledby="mold-overview">
-    <aside class="case-aside"><p>01 / OVERVIEW</p><h2 id="mold-overview">A compact product.<br>A complete process.</h2></aside>
-    <div class="case-text"><p class="lead-paragraph">Our two-person team designed and manufactured an injection-molded screwdriver handle, taking it from early CAD concepts through mold fabrication, molding trials, and production cost analysis.</p>
-      <p>The objective was to create a small, ergonomic handle around a standard Phillips screwdriver blade while meeting the limits of the Morgan G100T injection molding press. We selected a <strong>rounded, key-fob-inspired profile</strong> to balance portability, grip, and manufacturability.</p>
-      <p>More than a part-design exercise, the project required the handle, its mold tooling, CNC manufacturing plan, and production process to work together.</p>
-    </div>
-  </section>
-
-  <section class="constraints-section" aria-labelledby="requirements-heading"><div class="shell">
-    <div class="section-bar narrow"><div><p class="eyebrow">02 / DESIGN CONSTRAINTS</p><h2 id="requirements-heading">Designed for the process<span class="accent-dot">.</span></h2></div><p class="section-subtitle">Material selection, mold alignment, and manufacturing constraints drove the geometry.</p></div>
-    <div class="constraints-grid injection-specs">
-      <div class="constraint"><span>01 / HANDLE MATERIAL</span><strong>Vydyne 41</strong><p>Black high-impact nylon</p></div>
-      <div class="constraint"><span>02 / MOLD MATERIAL</span><strong>6061-T6</strong><p>Aluminum machined on Haas VF-2</p></div>
-      <div class="constraint"><span>03 / DRAFT ANGLE</span><strong>2°</strong><p>On mold-cavity walls for part release</p></div>
-      <div class="constraint"><span>04 / SHRINKAGE</span><strong>2%</strong><p>Allowance applied to cavity design</p></div>
-    </div>
-    <p class="constraints-note">The assignment also specified a maximum 5-inch overall screwdriver length, a standard Wera Phillips blade with at least 1 inch overmolded, and mounting/alignment features for the Morgan G100T press.</p>
-  </div></section>
-
-  <section class="shell injection-design-section" aria-labelledby="design-heading">
-    <div class="injection-section-top"><p class="eyebrow">03 / PRODUCT &amp; TOOLING DESIGN</p><h2 id="design-heading">Designed for molding.<br><em>Engineered for machining.</em></h2></div>
-    <div class="injection-design-grid">
-      <div class="injection-design-prose"><p>The handle was developed through several SolidWorks iterations, considering different shapes before selecting a rounded rectangular form. Drafted walls, generous radii, and controlled geometry were incorporated to support reliable filling and release.</p>
-      <p>For the two-piece mold, we planned a parting line, pin alignment, toe-clamp clearances, press mounting, nozzle entry, a runner system, and a seat for the screwdriver blade. The runner entry location was chosen to shift potential knit lines away from a more critical region of the handle.</p>
-      <p>The drawing package documents the design, including the mold assembly, individual aluminum mold halves, handle geometry, and standard components.</p>
-      <a class="text-link smaller" href="assets/Injection_Mold_Engineering_Drawings.pdf" target="_blank" rel="noopener">View engineering drawing package <span aria-hidden="true">↗</span></a></div>
-      <figure class="injection-drawing-figure"><a href="assets/mold-assembly-drawing.webp" target="_blank" rel="noopener"><img src="assets/mold-assembly-drawing.webp" loading="lazy" alt="SolidWorks exploded engineering drawing of the two-piece screwdriver mold assembly with alignment pins and screwdriver insert"></a><figcaption>03 / Mold tool assembly drawing. Click to enlarge.</figcaption></figure>
-    </div>
-    <div class="injection-drawing-strip">
-      <figure><a href="assets/handle-engineering-drawing.webp" target="_blank" rel="noopener"><img src="assets/handle-engineering-drawing.webp" loading="lazy" alt="Engineering drawing of the injection-molded screwdriver handle with dimensions and sections"></a><figcaption>04 / Handle design and key dimensions</figcaption></figure>
-      <figure><a href="assets/mold-top-engineering-drawing.webp" target="_blank" rel="noopener"><img src="assets/mold-top-engineering-drawing.webp" loading="lazy" alt="Dimensioned engineering drawing of the top injection mold half"></a><figcaption>05 / Top mold: cavity, runner, mounting and alignment</figcaption></figure>
-    </div>
-  </section>
-
-  <section class="injection-process-section" aria-labelledby="build-heading"><div class="shell injection-build-grid">
-    <div class="injection-build-copy"><p class="eyebrow">04 / CNC MACHINING</p><h2 id="build-heading">Making the tool<span class="accent-dot">.</span></h2>
-      <div class="process-steps">
-        <div><span>01</span><p><strong>Establish the setup.</strong> Defined G54 from the center of each mold block with Z-zero at the bottom face and used probing for repeatable positioning.</p></div>
-        <div><span>02</span><p><strong>Generate &amp; verify toolpaths.</strong> Adapted HSMWorks toolpaths to the cavity geometry, including scallop finishing, and simulated operations before posting G-code.</p></div>
-        <div><span>03</span><p><strong>Machine &amp; assemble.</strong> Machined the top and bottom 6061-T6 mold halves on the Haas VF-2, inspected the tooling, and installed alignment dowel pins.</p></div>
-      </div>
-    </div>
-    <figure class="injection-photo-figure"><a href="assets/mold-block-bench.webp" target="_blank" rel="noopener"><img src="assets/mold-block-bench.webp" loading="lazy" alt="Completed CNC-machined aluminum mold half with screwdriver cavity and runner features laid on a workbench"></a><figcaption>06 / Finished mold half after CNC machining. Click to enlarge.</figcaption></figure>
-  </div></section>
-
-  <section class="shell injection-photo-story" aria-labelledby="molding-heading">
-    <div class="injection-photo-pair"><figure><a href="assets/morgan-press-setup.webp" target="_blank" rel="noopener"><img src="assets/morgan-press-setup.webp" loading="lazy" alt="Two-piece aluminum mold mounted inside the Morgan injection molding press under the orange safety guard"></a><figcaption>07 / Mold setup on the Morgan G100T press</figcaption></figure><figure><a href="assets/mold-cad-toolpaths.webp" target="_blank" rel="noopener"><img src="assets/mold-cad-toolpaths.webp" loading="lazy" alt="Close-up CAD view showing the screwdriver handle mold cavity with machining toolpaths"></a><figcaption>08 / CAD toolpaths for mold details</figcaption></figure></div>
-    <div class="injection-photo-copy"><p class="eyebrow">05 / INJECTION MOLDING</p><h2 id="molding-heading">Dialing in the process<span class="accent-dot">.</span></h2><p>After machining, we aligned the two mold halves in the Morgan G100T press and secured them using the dowel pins, mounting points, and toe clamps.</p><p>Early shots showed <strong>short fills, shrinkage, and excess flash</strong>. Adjusting the injection conditions and material heating helped produce acceptable parts with visible molded detail and without excessive flashing or shrinkage.</p><p>Our report recorded an approximately <strong>3-minute cycle time</strong>, including blade loading and periodic replenishment of the material hopper.</p></div>
-  </section>
-
-  <section class="injection-results" aria-labelledby="results-heading"><div class="shell">
-    <div class="section-bar narrow"><div><p class="eyebrow">06 / TRIALS &amp; COST MODEL</p><h2 id="results-heading">Measured &amp; estimated<span class="accent-dot">.</span></h2></div><p class="section-subtitle">Molding-trial settings and a production cost model from our final report.</p></div>
-    <div class="constraints-grid injection-specs injection-results-grid">
-      <div class="constraint"><span>INJECTION PRESSURE</span><strong>8,000 psi</strong><p>Reported trial setting</p></div>
-      <div class="constraint"><span>CLAMPING FORCE</span><strong>12,000 lbf</strong><p>Reported trial setting</p></div>
-      <div class="constraint"><span>AVERAGE CYCLE</span><strong>~3 min</strong><p>Observed cycle time per part</p></div>
-      <div class="constraint"><span>ESTIMATED UNIT COST</span><strong>$11.19</strong><p>Cost model for a 12,000-unit production run</p></div>
-    </div>
-    <p class="constraints-note">The $11.19 figure is a projected cost, not the measured cost of a completed 12,000-unit production run. The course brief specified 10,000 units/year, while our final report modeled costs using 12,000 units.</p>
-  </div></section>
-
-  <section class="shell injection-lessons" aria-labelledby="lessons-heading"><div class="injection-lessons-heading"><p class="eyebrow">07 / TROUBLESHOOTING</p><h2 id="lessons-heading">When the part<br><em>didn't match CAD.</em></h2></div><div class="injection-lessons-body">
-    <p class="lead-paragraph">The first prototypes revealed a critical width mismatch: <strong>0.915 in measured</strong> against a <strong>0.944 in target</strong>.</p>
-    <p>We traced the 0.029-inch difference to mold stock that was shorter than the programmed stock height. Because the probing routine did not establish the Z-height of the blank, the cavity roughing cuts did not reach the intended depth. The blade-core seat was also too shallow for proper mold closure.</p>
-    <p>We reran the affected blade-pocket toolpaths to correct the interference and completed functional molded prototypes. The final parts were acceptable, but the width remained smaller than originally designed.</p>
-    <p>This reinforced a practical lesson in <strong>stock verification and datum strategy</strong>: accurate CAD and CAM are only as reliable as the workholding setup and the actual dimensions of the blank.</p>
-  </div></section>
-
-  <section class="injection-closing"><div class="shell injection-closing-grid"><figure><a href="assets/finished-screwdrivers.webp" target="_blank" rel="noopener"><img src="assets/finished-screwdrivers.webp" loading="lazy" alt="Finished black molded screwdriver handles attached to steel Phillips screwdriver blades"></a><figcaption>09 / Finished screwdriver prototypes</figcaption></figure><div><p class="eyebrow">08 / REFLECTION</p><h2>From design intent<br>to a working part<span class="accent-dot">.</span></h2><p>The project brought together product design, tolerance planning, CNC tooling, press setup, molding trials, and cost analysis in a single workflow. The resulting prototypes validated the overall concept while revealing opportunities to improve dimensional control, ergonomics, and cycle time.</p><p class="small-credits">Academic team project by Angela Foo and Brynn Bajema, Cal Poly IME 450. Figures and photos are from the team project and Angela's uploaded drawing package.</p><a href="index.html#projects" class="text-link smaller">More engineering projects <span aria-hidden="true">↗</span></a></div></div></section>
-  <div class="next-case"><div class="shell"><div><span>NEXT PROJECT</span><h2>Lightweight Bracket Optimization</h2></div><a href="bracket.html" class="text-link">View project <span aria-hidden="true">↗</span></a></div></div>
+<section class="shell case-intro injection-intro">
+<a class="back-to" href="index.html#projects">←   ALL PROJECTS</a>
+<p class="eyebrow">02 / IME 450 · INJECTION MOLD DESIGN · SPRING 2026</p>
+<h1>Injection-Molded<br/><em>Screwdriver.</em></h1>
+<p class="case-lede">Designing an ergonomic screwdriver handle with manufacturability in mind—from a revised automotive-inspired concept to functional injection-molded prototypes.</p>
+</section><section aria-label="Project at a glance" class="shell case-glance">
+<div class="case-glance-heading"><span>AT A GLANCE</span><span>OUTCOME → DECISION → EVIDENCE</span></div>
+<div class="case-glance-grid"><div><span>OUTCOME</span><strong>Complete screwdriver prototypes · ~3 min observed cycle</strong></div><div><span>ROLE</span><strong>Two-person team · concept design, CNC tooling, troubleshooting and molding</strong></div><div><span>DESIGN DECISION</span><strong>Rework the initial silhouette into a moldable key-fob profile; verify and correct tool fit before molding.</strong></div></div>
+<p class="case-glance-caveat">The ~3-minute cycle was observed during trials, not demonstrated as a production run rate. The finished handles retained a width discrepancy noted in the team report.</p>
+</section>
+<section aria-label="Project photographs" class="shell injection-hero-gallery">
+<figure class="injection-hero-main"><img alt="Machined aluminum screwdriver-handle mold installed in a CNC mill vise" fetchpriority="high" src="assets/mold-in-cnc.webp"/><figcaption>01 / CNC-machined screwdriver mold in the mill</figcaption></figure>
+<figure class="injection-hero-side"><img alt="Two completed black injection-molded screwdriver handles on Phillips screwdriver blades" fetchpriority="high" src="assets/finished-screwdrivers.webp"/><figcaption>02 / Functional injection-molded prototypes</figcaption></figure>
+</section>
+<section aria-labelledby="mold-overview" class="shell case-body">
+<aside class="case-aside"><p>01 / OVERVIEW</p><h2 id="mold-overview">A compact product.<br/>A complete process.</h2></aside>
+<div class="case-text"><p class="lead-paragraph">Our two-person team set out to create an ergonomic screwdriver handle with a distinctive automotive influence, using a two-piece aluminum mold and an embedded metal blade.</p>
+<p>The first concept followed the <strong>silhouette of a Porsche</strong>. We realized its irregular profile would complicate the parting line, thickness control, cooling and mold machining, so we reinterpreted the idea as a compact <strong>car key fob</strong>.</p>
+<p>The redesigned oval handle maintained the automotive character while simplifying the geometry. We machined an <strong>Audi emblem and CP lettering</strong> directly into the mold, so the details appeared on the injection-molded part without a separate decoration step.</p></div>
+</section>
+<section aria-labelledby="requirements-heading" class="constraints-section"><div class="shell">
+<div class="section-bar narrow"><div><p class="eyebrow">02 / DESIGN CONSTRAINTS</p><h2 id="requirements-heading">Designed for the process<span class="accent-dot">.</span></h2></div><p class="section-subtitle">Material selection, mold alignment, and manufacturing constraints drove the geometry.</p></div>
+<div class="constraints-grid injection-specs">
+<div class="constraint"><span>01 / HANDLE MATERIAL</span><strong>Vydyne 41</strong><p>Black high-impact nylon</p></div>
+<div class="constraint"><span>02 / MOLD MATERIAL</span><strong>6061-T6</strong><p>Aluminum machined on Haas VF-2</p></div>
+<div class="constraint"><span>03 / DRAFT ANGLE</span><strong>2°</strong><p>On mold-cavity walls for part release</p></div>
+<div class="constraint"><span>04 / SHRINKAGE</span><strong>2%</strong><p>Allowance applied to cavity design</p></div>
+</div>
+<p class="constraints-note">The assignment also specified a maximum 5-inch overall screwdriver length, a standard Wera Phillips blade with at least 1 inch overmolded, and mounting/alignment features for the Morgan G100T press.</p>
+</div></section>
+<section aria-labelledby="design-heading" class="shell injection-design-section">
+<div class="injection-section-top"><p class="eyebrow">03 / PRODUCT &amp; TOOLING DESIGN</p><h2 id="design-heading">Designed for molding.<br/><em>Engineered for machining.</em></h2></div>
+<div class="injection-design-grid">
+<div class="injection-design-prose"><p>Our initial Porsche-silhouette concept created difficulties for mold parting-line placement, cavity machining and maintaining reasonably consistent material thickness. We revised the design to a rounded, key-fob-inspired handle, retaining visual identity through molded-in Audi and Cal Poly details.</p>
+<p>We developed the two-piece mold with drafted cavity walls, shrinkage allowance, blade seating, alignment pins, runner entry, and mounting features for the Morgan G100T press.</p><p>The design was intended to be practical to grip and straightforward to mold; no formal ergonomic study was performed.</p><a class="text-link smaller" href="assets/Injection_Mold_Engineering_Drawings.pdf" rel="noopener" target="_blank">View engineering drawing package <span aria-hidden="true">↗</span></a></div>
+<figure class="injection-drawing-figure"><a href="assets/mold-assembly-drawing.webp" rel="noopener" target="_blank"><img alt="SolidWorks exploded engineering drawing of the two-piece screwdriver mold assembly with alignment pins and screwdriver insert" loading="lazy" src="assets/mold-assembly-drawing.webp"/></a><figcaption>03 / Mold tool assembly drawing. Click to enlarge.</figcaption></figure>
+</div>
+<div class="injection-drawing-strip">
+<figure><a href="assets/handle-engineering-drawing.webp" rel="noopener" target="_blank"><img alt="Engineering drawing of the injection-molded screwdriver handle with dimensions and sections" loading="lazy" src="assets/handle-engineering-drawing.webp"/></a><figcaption>04 / Handle design and key dimensions</figcaption></figure>
+<figure><a href="assets/mold-top-engineering-drawing.webp" rel="noopener" target="_blank"><img alt="Dimensioned engineering drawing of the top injection mold half" loading="lazy" src="assets/mold-top-engineering-drawing.webp"/></a><figcaption>05 / Top mold: cavity, runner, mounting and alignment</figcaption></figure>
+</div>
+</section>
+<section aria-labelledby="build-heading" class="injection-process-section"><div class="shell injection-build-grid">
+<div class="injection-build-copy"><p class="eyebrow">04 / CNC MACHINING</p><h2 id="build-heading">Making the tool<span class="accent-dot">.</span></h2>
+<div class="process-steps"><div><span>01</span><p><strong>Program the tooling.</strong> Prepared and checked CNC toolpaths for the two aluminum mold halves on the Haas VF-2.</p></div><div><span>02</span><p><strong>Machine the cavities.</strong> Produced the mold halves, including the screwdriver-blade seating feature and molded-in emblem and lettering.</p></div><div><span>03</span><p><strong>Resolve the setup issue.</strong> At the Morgan press, the two mold halves would not close completely with the blade between them. Measurements against our SolidWorks model confirmed a discrepancy, so we ran an additional machining pass to correct the affected geometry.</p></div></div>
+</div>
+<figure class="injection-photo-figure"><a href="assets/mold-block-bench.webp" rel="noopener" target="_blank"><img alt="Completed CNC-machined aluminum mold half with screwdriver cavity and runner features laid on a workbench" loading="lazy" src="assets/mold-block-bench.webp"/></a><figcaption>06 / Finished mold half after CNC machining. Click to enlarge.</figcaption></figure>
+</div></section>
+<section aria-labelledby="molding-heading" class="shell injection-photo-story">
+<div class="injection-photo-pair"><figure><a href="assets/morgan-press-setup.webp" rel="noopener" target="_blank"><img alt="Two-piece aluminum mold mounted inside the Morgan injection molding press under the orange safety guard" loading="lazy" src="assets/morgan-press-setup.webp"/></a><figcaption>07 / Mold setup on the Morgan G100T press</figcaption></figure><figure><a href="assets/mold-cad-toolpaths.webp" rel="noopener" target="_blank"><img alt="Close-up CAD view showing the screwdriver handle mold cavity with machining toolpaths" loading="lazy" src="assets/mold-cad-toolpaths.webp"/></a><figcaption>08 / CAD toolpaths for mold details</figcaption></figure></div>
+<div class="injection-photo-copy"><p class="eyebrow">05 / INJECTION MOLDING</p><h2 id="molding-heading">Dialing in the process<span class="accent-dot">.</span></h2><p>With the mold corrected, we began molding around the metal screwdriver blade. Early trials produced <strong>short shots and flashing</strong>. Increasing injection pressure improved cavity filling but encouraged flash; lowering it reduced flash while leaving the part incomplete.</p><p>By iterating on the machine settings, we found conditions that produced <strong>complete screwdriver handles with acceptable part quality</strong>. Our trials recorded an approximately <strong>three-minute molding cycle</strong>.</p><p>We checked blade fit in the intended slot and verified that the molded handle encompassed the embedded portion of the blade.</p></div>
+</section>
+<section aria-labelledby="results-heading" class="injection-results"><div class="shell">
+<div class="section-bar narrow"><div><p class="eyebrow">06 / TRIALS &amp; COST MODEL</p><h2 id="results-heading">Measured &amp; estimated<span class="accent-dot">.</span></h2></div><p class="section-subtitle">Molding-trial settings and a production cost model from our final report.</p></div>
+<div class="constraints-grid injection-specs injection-results-grid">
+<div class="constraint"><span>INJECTION PRESSURE</span><strong>8,000 psi</strong><p>Reported trial setting</p></div>
+<div class="constraint"><span>CLAMPING FORCE</span><strong>12,000 lbf</strong><p>Reported trial setting</p></div>
+<div class="constraint"><span>AVERAGE CYCLE</span><strong>~3 min</strong><p>Observed cycle time per part</p></div>
+<div class="constraint"><span>ESTIMATED UNIT COST</span><strong>$11.19</strong><p>Cost model for a 12,000-unit production run</p></div>
+</div>
+<p class="constraints-note">The $11.19 figure is a projected cost, not the measured cost of a completed 12,000-unit production run. The course brief specified 10,000 units/year, while our final report modeled costs using 12,000 units.</p>
+</div></section>
+<section aria-labelledby="lessons-heading" class="shell injection-lessons"><div class="injection-lessons-heading"><p class="eyebrow">07 / TROUBLESHOOTING</p><h2 id="lessons-heading">When the part<br/><em>didn't match CAD.</em></h2></div><div class="injection-lessons-body"><p class="lead-paragraph">The mold looked successful after CNC machining, but it would not close completely around the blade when we set it up in the Morgan press.</p><p>That physical fit issue prompted us to measure the mold and compare it with the SolidWorks model. The dimensional mismatch affected the blade seat, so we returned to the CNC machine for a corrective pass before continuing molding trials.</p><p>The team's report also recorded a <strong>0.915 in finished width</strong> against a <strong>0.944 in design target</strong>; that residual deviation should not be confused with the corrected blade-seat interference.</p><p>The experience reinforced the need to inspect tooling as an assembled system, not just confirm that each CNC program completed without incident.</p></div></section>
+<section class="injection-closing"><div class="shell injection-closing-grid"><figure><a href="assets/finished-screwdrivers.webp" rel="noopener" target="_blank"><img alt="Finished black molded screwdriver handles attached to steel Phillips screwdriver blades" loading="lazy" src="assets/finished-screwdrivers.webp"/></a><figcaption>09 / Finished screwdriver prototypes</figcaption></figure><div><p class="eyebrow">08 / REFLECTION</p><h2>From design intent<br/>to a working part<span class="accent-dot">.</span></h2><p>We transitioned from an irregular vehicle silhouette to a moldable key-fob form, corrected a fit issue discovered at press setup, and balanced process parameters to produce complete prototypes.</p><p>Our blade-fit and visual checks confirmed the intended assembly, without implying mechanical retention or ergonomic performance testing.</p><p class="small-credits">Two-person Cal Poly IME 450 project. Approximately three-minute cycle measured during molding trials.</p><a class="text-link smaller" href="index.html#projects">More engineering projects <span aria-hidden="true">↗</span></a></div></div></section>
+<div class="next-case"><div class="shell"><div><span>NEXT PROJECT</span><h2>Lightweight Bracket Optimization</h2></div><a class="text-link" href="bracket.html">View project <span aria-hidden="true">↗</span></a></div></div>
 </main><footer class="site-footer"><div class="shell footer-flex"><span>© Angela Foo · Engineering portfolio</span><a href="index.html#projects">All projects ↑</a></div></footer>
 </body></html>
